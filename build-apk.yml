@@ -17,7 +17,7 @@ jobs:
       - uses: gradle/actions/setup-gradle@v4
       - name: Generate Gradle wrapper
         run: gradle wrapper --gradle-version 8.9
-      - name: Build APK
+      - name: .github\workflows\build-apk.yml"
         run: ./gradlew assembleDebug
       - name: Upload APK
         uses: actions/upload-artifact@v4
